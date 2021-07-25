@@ -7,7 +7,13 @@ elementFormDefault="qualified">
     <xs:complexType>
       <xs:sequence>
         <xs:element name="title" type="xs:string"/>
-        <xs:element name="body" type="xs:string"/>
+        <xs:element name="body">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:any minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
