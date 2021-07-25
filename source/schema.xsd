@@ -17,4 +17,11 @@ elementFormDefault="qualified">
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="block">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="text" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
 </xs:schema>
