@@ -26,6 +26,9 @@ But a basic DML document looks like this:
 <dml>
   <title>My Page</title>
   <body>
+    <block>
+      <text>Hello world!</text>
+    </block>
   </body>
 </dml>
 ```
